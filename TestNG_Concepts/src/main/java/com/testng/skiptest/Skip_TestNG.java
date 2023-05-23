@@ -2,7 +2,7 @@ package com.testng.skiptest;
 
 import org.testng.annotations.Test;
 
-public class TestNG_Skip {
+public class Skip_TestNG {
 	@Test(priority = 0)
 	public void carStart() {
 		System.out.println("Car is Started");

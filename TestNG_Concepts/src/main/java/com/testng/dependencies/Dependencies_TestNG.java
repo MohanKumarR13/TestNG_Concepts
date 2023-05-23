@@ -3,7 +3,7 @@ package com.testng.dependencies;
 import org.testng.annotations.Test;
 
 public class Dependencies_TestNG {
-	@Test
+	@Test(enabled = true)
 	public void highSchool() {
 		System.out.println("High School");
 	}
