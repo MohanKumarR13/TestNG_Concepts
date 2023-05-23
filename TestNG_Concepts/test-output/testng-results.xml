@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-23T15:14:45 IST" name="Default suite" finished-at="2023-05-23T15:14:45 IST" duration-ms="103">
+    <groups>
+    </groups>
+    <test started-at="2023-05-23T15:14:45 IST" name="Default test" finished-at="2023-05-23T15:14:45 IST" duration-ms="103">
+      <class name="com.testng.skiptest.TestNG_Skip">
+        <test-method signature="carStart()[pri:0, instance:com.testng.skiptest.TestNG_Skip@1649b0e6]" started-at="2023-05-23T15:14:45 IST" name="carStart" finished-at="2023-05-23T15:14:45 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carStart -->
+        <test-method signature="gearOne()[pri:1, instance:com.testng.skiptest.TestNG_Skip@1649b0e6]" started-at="2023-05-23T15:14:45 IST" name="gearOne" finished-at="2023-05-23T15:14:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gearOne -->
+        <test-method signature="gearTwo()[pri:2, instance:com.testng.skiptest.TestNG_Skip@1649b0e6]" started-at="2023-05-23T15:14:45 IST" name="gearTwo" finished-at="2023-05-23T15:14:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gearTwo -->
+        <test-method signature="gearThree()[pri:3, instance:com.testng.skiptest.TestNG_Skip@1649b0e6]" started-at="2023-05-23T15:14:45 IST" name="gearThree" finished-at="2023-05-23T15:14:45 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gearThree -->
+        <test-method signature="gearFour()[pri:4, instance:com.testng.skiptest.TestNG_Skip@1649b0e6]" started-at="2023-05-23T15:14:45 IST" name="gearFour" finished-at="2023-05-23T15:14:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gearFour -->
+      </class> <!-- com.testng.skiptest.TestNG_Skip -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
