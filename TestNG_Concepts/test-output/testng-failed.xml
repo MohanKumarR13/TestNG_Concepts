@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.suite.Suite_TestNG">
+      <class name="com.testng.assertion.Assertion_TestNG">
         <methods>
-          <include name="openBing"/>
-          <include name="openGoogle"/>
-          <include name="openYahoo"/>
+          <include name="usingAssert"/>
         </methods>
-      </class> <!-- com.testng.suite.Suite_TestNG -->
+      </class> <!-- com.testng.assertion.Assertion_TestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-23T16:00:51 IST" name="Default suite" finished-at="2023-05-23T16:01:05 IST" duration-ms="13754">
+  <suite started-at="2023-05-23T18:47:50 IST" name="Listeners" finished-at="2023-05-23T18:47:50 IST" duration-ms="72">
     <groups>
     </groups>
-    <test started-at="2023-05-23T16:00:51 IST" name="Default test" finished-at="2023-05-23T16:01:05 IST" duration-ms="13754">
-      <class name="com.testng.suite.Suite_TestNG">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testng.suite.Suite_TestNG@32502377]" started-at="2023-05-23T16:00:40 IST" name="launchBrowser" finished-at="2023-05-23T16:00:51 IST" duration-ms="11197" status="PASS">
+    <test started-at="2023-05-23T18:47:50 IST" name="Listeners" finished-at="2023-05-23T18:47:50 IST" duration-ms="72">
+      <class name="com.testng.listeners.Listeners_TestNG_Example">
+        <test-method signature="firstTestCase()[pri:0, instance:com.testng.listeners.Listeners_TestNG_Example@5562c41e]" started-at="2023-05-23T18:47:50 IST" name="firstTestCase" finished-at="2023-05-23T18:47:50 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="openBing()[pri:0, instance:com.testng.suite.Suite_TestNG@32502377]" started-at="2023-05-23T16:00:52 IST" name="openBing" finished-at="2023-05-23T16:01:00 IST" duration-ms="8810" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBing -->
-        <test-method signature="openGoogle()[pri:0, instance:com.testng.suite.Suite_TestNG@32502377]" started-at="2023-05-23T16:01:00 IST" name="openGoogle" finished-at="2023-05-23T16:01:03 IST" duration-ms="2469" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openGoogle -->
-        <test-method signature="openYahoo()[pri:0, instance:com.testng.suite.Suite_TestNG@32502377]" started-at="2023-05-23T16:01:03 IST" name="openYahoo" finished-at="2023-05-23T16:01:05 IST" duration-ms="2126" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openYahoo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.suite.Suite_TestNG@32502377]" started-at="2023-05-23T16:01:05 IST" name="closeBrowser" finished-at="2023-05-23T16:01:12 IST" duration-ms="7251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.testng.suite.Suite_TestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- firstTestCase -->
+      </class> <!-- com.testng.listeners.Listeners_TestNG_Example -->
+    </test> <!-- Listeners -->
+  </suite> <!-- Listeners -->
 </testng-results>
